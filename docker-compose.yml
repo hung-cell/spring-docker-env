@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app-test:
+    build:
+      context: .
+    container_name: app_test
+    environment:
+      VARIABLE: "${VARIABLE_IN_ENV}"

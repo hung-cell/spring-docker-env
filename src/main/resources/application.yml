@@ -1,0 +1,2 @@
+
+value: ${VARIABLE:This from default spring properties}
